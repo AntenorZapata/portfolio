@@ -1,14 +1,14 @@
-@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200;400;600;700&display=swap');
-@import './page.scss';
-@import './variables.scss';
-@import './navbar.scss';
-@import './landing.scss';
-@import './Info.scss';
-@import './skill.scss';
-@import './title.scss';
-@import './projects.scss';
-@import './infoprojects.scss';
-@import './contact.scss';
+@import url("https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200;400;600;700&display=swap");
+@import "./page.scss";
+@import "./variables.scss";
+@import "./navbar.scss";
+@import "./landing.scss";
+@import "./Info.scss";
+@import "./skill.scss";
+@import "./title.scss";
+@import "./projects.scss";
+@import "./infoprojects.scss";
+@import "./contact.scss";
 
 * {
   box-sizing: border-box;
@@ -20,4 +20,28 @@ body {
   color: $bodyColor;
   font-size: 1.2rem;
   font-family: $fontFamily;
+}
+
+@media screen and (max-width: 411px) {
+  * {
+    font-size: 80%;
+  }
+}
+@media screen and (max-width: 700px) {
+  html {
+    font-size: 90%;
+  }
+}
+@media screen and (max-width: 480px) {
+  h1 {
+    line-height: 3rem;
+    margin-bottom: 2rem;
+  }
+
+  h2 {
+    font-size: 70%;
+  }
+  h3 {
+    font-size: 70%;
+  }
 }

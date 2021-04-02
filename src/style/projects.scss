@@ -1,5 +1,5 @@
-@import './variables.scss';
-@import './animations.scss';
+@import "./variables.scss";
+@import "./animations.scss";
 
 .projects-page {
   .projects {
@@ -59,7 +59,7 @@
             .techs {
               margin-left: 2rem;
               font-size: 0.9rem;
-              font-family: 'Arial';
+              font-family: "Arial";
               color: $primaryColor;
             }
 
@@ -140,6 +140,29 @@
       color: white;
       transform: scale(1.1);
       cursor: pointer;
+    }
+  }
+}
+
+@media (max-width: 320px) {
+  .projects-page {
+    .title-project {
+      margin-left: -3rem;
+    }
+    .projects {
+      .single-project {
+        margin-left: -6rem;
+        margin-top: -6rem;
+        width: 10rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+
+        .single {
+          margin-bottom: 3rem;
+        }
+      }
     }
   }
 }

@@ -1,5 +1,5 @@
-@import './variables.scss';
-@import './animations.scss';
+@import "./variables.scss";
+@import "./animations.scss";
 
 .skill-section {
   display: flex;
@@ -9,17 +9,40 @@
   justify-content: center;
   animation-name: moveInLeft;
   animation-duration: 2s;
+  @media screen and (max-width: 500px) {
+    margin-left: 3rem;
+  }
+
+  // @media screen and (max-width: 1024px) {
+  //   width: 30rem;
+  //   margin-left: 8rem;
+  //   margin-top: -3.5rem;
+  // }
+  // @media screen and (max-width: 768) {
+  //   width: 30rem;
+  //   margin-left: 8rem;
+  //   margin-top: -3.5rem;
+  // }
 
   .skill {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
+    @media screen and (max-width: 500px) {
+      width: 4rem;
+    }
 
     .icon {
       margin-right: 1.2rem;
       font-size: 4.5rem;
       transition: all 0.15s ease-in;
+
+      @media screen and (max-width: 768px) {
+        font-size: 3rem;
+        margin-bottom: 5rem;
+        margin-top: -4rem;
+      }
     }
 
     span {

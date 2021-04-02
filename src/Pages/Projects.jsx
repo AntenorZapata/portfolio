@@ -24,7 +24,9 @@ function Projects() {
 
   return (
     <div className="projects-page">
+      <div className="title-project">
       <Title text={'Projetos'} shadow={'Projetos'} />
+      </div>
 
       <div className="projects">
         <div className="labels">

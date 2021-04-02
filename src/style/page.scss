@@ -1,4 +1,4 @@
-@import './variables.scss';
+@import "./variables.scss";
 
 .App {
   .sidebar {
@@ -7,6 +7,21 @@
     border-right: 1px solid $border;
     background-color: $homeColor;
     position: fixed;
+    z-index: 11;
+    transform-origin: left;
+    @media screen and (max-width: 500px) {
+      width: 3rem;
+    }
+    @media screen and (max-width: 1000px) {
+      transition: all 0.4s ease-in-out;
+      transform: translateX(-100%);
+      width: 5rem;
+    }
+  }
+  .nav-toggle {
+    @media screen and (max-width: 1000px) {
+      transform: translateX(0);
+    }
   }
 
   .home {
@@ -14,11 +29,51 @@
     min-height: 100vh;
     width: 95%;
     margin-left: 5%;
-
     position: relative;
     display: grid;
+
     .content {
       min-height: 100vh;
+    }
+    @media screen and (max-width: 1000px) {
+      margin-left: 0;
+      width: 100%;
+    }
+  }
+}
+
+.nav-btn {
+  position: absolute;
+  z-index: 10;
+  right: 10%;
+  top: 10%;
+  width: 4rem;
+  height: 4rem;
+  display: none;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  justify-content: space-between;
+  // background-color: red;
+  .lines-1,
+  .lines-2,
+  .lines-3 {
+    height: 0.4rem;
+    width: 100%;
+    background-color: $bodyColor;
+    pointer-events: none;
+    border-radius: 20px;
+    display: none;
+    &:not(:last-child) {
+      margin-bottom: 0.4rem;
+    }
+  }
+  @media screen and (max-width: 1000px) {
+    display: block;
+    .lines-1,
+    .lines-2,
+    .lines-3 {
+      display: block;
     }
   }
 }
