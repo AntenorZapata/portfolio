@@ -1,5 +1,5 @@
-@import "./variables.scss";
-@import "./animations.scss";
+@import './variables.scss';
+@import './animations.scss';
 
 .skill-section {
   display: flex;
@@ -10,7 +10,9 @@
   animation-name: moveInLeft;
   animation-duration: 2s;
   @media screen and (max-width: 500px) {
-    margin-left: 4.5rem;
+    margin-left: 3rem;
+    // background-color: red;
+    width: 80%;
   }
 
   // @media screen and (max-width: 1024px) {
