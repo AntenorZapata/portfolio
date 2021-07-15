@@ -16,7 +16,7 @@ const projetos = [
     name: 'Recipes',
     img: recipes,
     desc:
-      'O Recipes é um aplicativo para consulta de receitas de comidas e bebidas. Nele é possível: buscar, filtrar, favoritar e acompanhar o processo de preparação de alimentos e drinks. Utilizei React com foco em Hooks, Context API e componentização. Usei, também, bootstrap para o estilo de alguns itens. A base de dados são 2 (duas) API’s distintas: uma para comidas (https://www.themealdb.com/) e outra para bebidas (https://www.thecocktaildb.com/api.php). O layout tem como foco dispositivos móveis. ',
+      'O Recipes é um aplicativo para consulta de receitas de comidas e bebidas. Nele é possível: buscar, filtrar, favoritar e acompanhar o processo de preparação de alimentos e drinks. Utilizei React com foco em Hooks, Context API e componentização. Usei, também, bootstrap para o estilo de alguns itens. A base de dados são 2 (duas) API’s distintas, uma para comidas e outra para bebidas. O layout tem como foco dispositivos móveis.',
     techs: `HTML / Sass / JavaScript`,
     linkGit: 'https://github.com/AntenorZapata/recipes',
     linkPage: 'https://github.com/AntenorZapata/recipes',
