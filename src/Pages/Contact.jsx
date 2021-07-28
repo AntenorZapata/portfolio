@@ -50,20 +50,6 @@ function Contact() {
             </div>
           </form>
         </div>
-        {/* <div className="contact-message">
-          <p>
-            <h3 className="you">Caso queira:</h3>- Fazer um{' '}
-            <span className="color">trabalho</span>,
-            <br />- Oferecer um <span className="color">trabalho</span>,
-            <br />- Fazer um <span className="color">som</span> <br />
-            <span class="ou">ou</span>
-            <br />- Trocar uma <span className="color">ideia</span>,
-            <br />
-            me manda uma mensagem.<br/> Vai ser massa te conhecer!{' '}
-            <HiOutlineEmojiHappy className="happy" />
-          </p>
-        </div> */}
-        {/* <div className="lateral"></div> */}
       </div>
     </div>
   );
