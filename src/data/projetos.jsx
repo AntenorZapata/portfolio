@@ -4,6 +4,15 @@ import recipes from '../imgs/recipes.png';
 const projetos = [
   {
     id: 1,
+    name: 'Wallet',
+    img: wallet,
+    desc:'O app Wallet é uma carteira de controle de gastos com conversor de moedas. Nele é possível adicionar, remover, arquivar e editar um gasto; visualizar os dados da despesa e visualizar o total de gastos – cálculo feito com base no câmbio atual das moedas escolhidas – awesomeAPI de Cotações. Utilizei React, Redux e Sass para o estilo. O layout tem como foco dispositivos móveis.',
+    techs: 'React / Redux / Sass',
+    linkGit: 'https://github.com/AntenorZapata/WalletApp',
+    linkPage: 'https://reverent-jackson-784b2e.netlify.app/',
+  },
+  {
+    id: 2,
     name: 'Recipes',
     img: recipes,
     desc:
@@ -12,15 +21,6 @@ const projetos = [
     linkGit: 'https://github.com/AntenorZapata/recipes',
     linkPage: 'https://agitated-bell-17c42f.netlify.app/',
   },
-  {
-    id: 2,
-    name: 'Wallet',
-    img: wallet,
-    desc:'O app Wallet é uma carteira de controle de gastos com conversor de moedas. Nele é possível adicionar, remover, arquivar e editar um gasto; visualizar os dados da despesa e visualizar o total de gastos – cálculo feito com base no câmbio atual das moedas escolhidas – awesomeAPI de Cotações. Utilizei React, Redux e Sass para o estilo. O layout tem como foco dispositivos móveis.',
-    techs: 'React / Redux / Sass',
-    linkGit: 'https://github.com/AntenorZapata/WalletApp',
-    linkPage: 'https://reverent-jackson-784b2e.netlify.app/',
-  }
 ];
 
 export default projetos;

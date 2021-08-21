@@ -1,6 +1,6 @@
 import file from '../imgs/resume.pdf';
 import React from 'react';
-import image from '../imgs/nokspb.jpeg';
+// import image from '../imgs/nokspb.jpeg';
 
 function Info() {
   return (
